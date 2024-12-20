@@ -19,3 +19,6 @@ MonoBehaviour:
   - levelNumber: 1
     levelName: Table_2
     levelPrefab: {fileID: 7222165062520874153, guid: f333418b2468abd48ac4830488151658, type: 3}
+  - levelNumber: 2
+    levelName: Table_3
+    levelPrefab: {fileID: 4555796700295028321, guid: 2fa9deb0f64c62a40b71aab385ac7e5d, type: 3}

@@ -883,6 +883,7 @@ MonoBehaviour:
   levelIndex: 0
   player: {fileID: 7734528154566764417, guid: e554ba98abe8b524382d0638b2da14df, type: 3}
   currentPlayer: {fileID: 0}
+  Coin: 0
   botPrefab: {fileID: 2794418924522075823, guid: f5d168d2610e71a489598354e594062e, type: 3}
   curBotNumber: 0
   activeBotNumber: 0
