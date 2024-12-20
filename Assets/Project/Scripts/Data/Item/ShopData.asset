@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84daeaeafdafb5c4781f37d2fbf9b551, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  hats:
+  - {fileID: 11400000, guid: 672674d3323f6e244bf38ba2ca738af5, type: 2}
+  - {fileID: 11400000, guid: fe1aa3d11c622b94b9cc3ee9862c1ca7, type: 2}
+  - {fileID: 11400000, guid: 2c4e52ac5aa30bc4daccb327a939ea55, type: 2}
+  - {fileID: 11400000, guid: a5c9bcb9127f3f04d9b073ec33040527, type: 2}
+  - {fileID: 11400000, guid: 6fb9e2cfe1487a14dbf897820d6e4122, type: 2}
+  - {fileID: 11400000, guid: 596ff603583edd244bd1b13a76f153fc, type: 2}
+  - {fileID: 11400000, guid: aad1cad0645db7148b82bcdcf4e09d30, type: 2}
+  - {fileID: 11400000, guid: 3e4db2fad28ae054bac733caf5ca7150, type: 2}
+  - {fileID: 11400000, guid: 542a67ad41a0afe459b90f7f588ff69d, type: 2}
+  - {fileID: 11400000, guid: 3e374968322f4fa468714e159ea6278c, type: 2}
+  - {fileID: 11400000, guid: 0f743483bda738446afcf331e2f6560b, type: 2}
+  pants:
+  - {fileID: 11400000, guid: d1cde7c60e8fcb44987b53c532b11ea1, type: 2}
+  - {fileID: 11400000, guid: 5db156d5ffecad24e87c918038dad23e, type: 2}
+  - {fileID: 11400000, guid: 6b20ec1e07d2f9749995acb4176c70d7, type: 2}
+  - {fileID: 11400000, guid: 23dfe2a58f0c81e43b6b2e6d2f250277, type: 2}
+  - {fileID: 11400000, guid: 86ce91a60e05323418913e785bc82d89, type: 2}
+  - {fileID: 11400000, guid: 4fe49bb069e5b934b9f867fa1b906f86, type: 2}
+  - {fileID: 11400000, guid: 5b94ed5dfc26ee147a3635e095d60559, type: 2}
+  - {fileID: 11400000, guid: 21d65498fe968ee44982e811e2eeb899, type: 2}
+  - {fileID: 11400000, guid: b18570b312b60064c818176e50b214db, type: 2}
+  - {fileID: 11400000, guid: 42aac5ac2fb9f5b4a9e82b76e82099cc, type: 2}
+  accessories:
+  - {fileID: 11400000, guid: c2cc2dcbaeb69dc47997d8cc9eb29f9d, type: 2}
+  - {fileID: 11400000, guid: 57981822807e9e048a7ff9441fe29216, type: 2}
+  - {fileID: 11400000, guid: 2285a874085799345872122ecd7254c9, type: 2}
+  skins:
+  - {fileID: 11400000, guid: 306bb513cd73cdc45b79780a2117d7ba, type: 2}
+  - {fileID: 11400000, guid: 311a487ddb47e5044922a7836c55cfd3, type: 2}
+  - {fileID: 11400000, guid: f4cf53b34d0e215479662a5cb3da3b69, type: 2}
+  - {fileID: 11400000, guid: 0f8b288b08ca6444a9dc94b92e28c7ba, type: 2}
+  - {fileID: 11400000, guid: 88714636d92250b488fa2c1cb80f7589, type: 2}
+  - {fileID: 11400000, guid: cc414589d0a1bb14dbfba7e441741e18, type: 2}

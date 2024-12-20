@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b53b178a7e749449604476e2a02e66, type: 3}
+  m_Name: Captain Shield
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -1728093748, guid: 747d642799c526143b4b58d8bb495bc4, type: 3}
+  type: 4001
+  cost: 2500

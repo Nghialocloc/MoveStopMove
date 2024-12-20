@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1093bf259304fa0418d57a504c052638, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  weaponItems:
+  - name: Arrow
+    type: 2000
+    prefab: {fileID: 4995990512590117807, guid: f4061d86316d9bc49ad466400d69df20, type: 3}
+    description: None
+    cost: 0
+  - name: Shepre Candy
+    type: 2004
+    prefab: {fileID: 6028162224258604759, guid: 87522d025f7ef154382176e7bbfe21be, type: 3}
+    description: None
+    cost: 500
+  - name: Cone Candy
+    type: 2003
+    prefab: {fileID: 132955722789456761, guid: ee18e7e9b558e864388ea929ff9324d8, type: 3}
+    description: None
+    cost: 800
+  - name: Lolipop Candy
+    type: 2002
+    prefab: {fileID: 6386637047168842824, guid: 145fe8a98688f3440912624542ddae19, type: 3}
+    description: Bullet size +5%
+    cost: 1300
+  - name: Ice Cream
+    type: 2005
+    prefab: {fileID: 1439220535184234220, guid: 2d9a1199889b22246bbffb990b0496b4, type: 3}
+    description: Reload -10%
+    cost: 1400
+  - name: Single Axe
+    type: 2006
+    prefab: {fileID: 9199756631409945640, guid: 220c80b01e96a2c4b8c943bdfde4eee4, type: 3}
+    description: Bullet size and speed +5%
+    cost: 2000
+  - name: Double Axe
+    type: 2007
+    prefab: {fileID: 3599328043947467228, guid: f561629570335184aacd8c35161a86c4, type: 3}
+    description: Reload +10%, bullet size and speed  +10%
+    cost: 2500
+  - name: Knife
+    type: 2001
+    prefab: {fileID: 4061665299963122296, guid: 6aada6dd29ee6d046b207e889ba79119, type: 3}
+    description: Speed +20%
+    cost: 2700
+  - name: Hammer
+    type: 2008
+    prefab: {fileID: 2818416593539426403, guid: 7bcfac7a6b8c2e443b8eec7e7c69db31, type: 3}
+    description: Reload +20%, bullet size +15%
+    cost: 3000
+  - name: Boomerang
+    type: 2009
+    prefab: {fileID: 2082619970233462608, guid: 89bcd019657729e4985c52132bf12536, type: 3}
+    description: Return to user
+    cost: 2500
+  - name: Uzi
+    type: 2010
+    prefab: {fileID: 3429537401221306628, guid: 00e6d59bb4228bd479a79228ca9c98f8, type: 3}
+    description: Return to user, speed +10%
+    cost: 3600
+  - name: Z
+    type: 2011
+    prefab: {fileID: 8544615560555886665, guid: 689e440f52680674a8174ec8636bc99b, type: 3}
+    description: Return to user, speed -10%, bullte size +20%
+    cost: 4500
