@@ -17,7 +17,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
 
     [Header("SpawnBot")]
     [SerializeField] private Bot botPrefab;
-    [SerializeField] private int curBotNumber;
+    [SerializeField] private int curBotNumber = 0;
     [SerializeField] private int activeBotNumber;
     public int totalBotNumber;
     [SerializeField] private LayerMask collideLayer;
@@ -64,6 +64,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
         DataPersistenceManager.Ins.CallData(this);
         isInitSpawn = true;
         OnLoadLevel(levelIndex);
+        curBotNumber = 0;
         activeBotNumber = currentLevel.GetBotNumber();
         totalBotNumber = currentLevel.GetAllBotNumber();
 
@@ -111,7 +112,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
 
     public IEnumerator SpawnAllBot()
     {
-        for(int i = 0; i < activeBotNumber; i++)
+        for (int i = 0; i < activeBotNumber; i++)
         {
             SpawnBot();
             yield return null;
