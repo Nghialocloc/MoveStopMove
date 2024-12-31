@@ -528,6 +528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2857178823124519085, guid: e0cd3e90ef07d5e4898be1cd584ed856, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a515e484544b75409c4103b4e98cf39, type: 2}
     - target: {fileID: 2966354501865442844, guid: e0cd3e90ef07d5e4898be1cd584ed856, type: 3}
       propertyPath: m_Name
       value: Cup (2)
