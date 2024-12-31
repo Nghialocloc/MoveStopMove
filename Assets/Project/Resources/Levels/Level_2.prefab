@@ -391,8 +391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1214a416a84981f43a90f9a2496cad3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfActiveBot: 15
-  numberOfTotalBot: 25
+  numberOfActiveBot: 10
+  numberOfTotalBot: 20
   minPoint: {fileID: 8088645432067622424}
   maxPoint: {fileID: 4527897171427645816}
   playerSpawn: {fileID: 2111818367510847061}

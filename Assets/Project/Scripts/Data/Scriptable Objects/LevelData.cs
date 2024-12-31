@@ -13,5 +13,5 @@ public class LevelInfo
 {
     public int levelNumber;
     public string levelName;
-    public GameObject levelPrefab;
+    public Level levelPrefab;
 }

@@ -219,7 +219,7 @@ public class Player : Character, IDataPersistence
 
     #endregion
 
-    #region Action
+    #region Interact
     public override void AddTarget(Character target)
     {
         base.AddTarget(target);

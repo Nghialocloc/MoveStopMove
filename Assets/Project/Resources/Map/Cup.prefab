@@ -62,6 +62,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 784931488809318810}
+  - component: {fileID: 3608930367306792089}
   m_Layer: 6
   m_Name: Cup
   m_TagString: Untagged
@@ -86,6 +87,22 @@ Transform:
   - {fileID: 5738075376845148293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3608930367306792089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2966354501865442844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22bdb4a8e18b040b94cf5a140d3e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 2857178823124519085}
+  fadeAmount: 0.5
+  fadeSpeed: 10
+  DoFade: 0
 --- !u!1001 &3487801111576417321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170,6 +187,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1175191861240373712}
   m_SourcePrefab: {fileID: 100100000, guid: 7203cba759a0fc54f8120ef9afdcb382, type: 3}
+--- !u!23 &2857178823124519085 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 7203cba759a0fc54f8120ef9afdcb382, type: 3}
+  m_PrefabInstance: {fileID: 3487801111576417321}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4030037618866844610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7203cba759a0fc54f8120ef9afdcb382, type: 3}

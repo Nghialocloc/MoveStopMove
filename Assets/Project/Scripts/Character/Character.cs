@@ -8,13 +8,13 @@ public class Character : GameUnit
     [SerializeField] protected float moveSpeed = 5;
     [SerializeField] protected float rotationSpeed = 600;
     [SerializeField] protected float attackDelay = 0.5f;
-    [SerializeField] protected float attackRange = 5f;
     [SerializeField] protected float charSize = 1f;
     [SerializeField] protected string currentAnim;
 
     [Header("Constant")]
-    public const float MAX_SIZE = 4f;
-    public const float MIN_SIZE = 1f;
+    public float MAX_SIZE = 4f;
+    public float MIN_SIZE = 1f;
+    public float BASE_ATTACK_RANGE = 5f;
 
     [Header("Component")]
     [SerializeField] protected Rigidbody rb;
@@ -252,7 +252,7 @@ public class Character : GameUnit
             {
                 float dis = Vector3.Distance(TF.position, targets[i].TF.position);
 
-                if (dis < distance && dis <= attackRange * charSize + targets[i].charSize)
+                if (dis < distance && dis <= BASE_ATTACK_RANGE * charSize + targets[i].charSize)
                 {
                     distance = dis;
                     target = targets[i];

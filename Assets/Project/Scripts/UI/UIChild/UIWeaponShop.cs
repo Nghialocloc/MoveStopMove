@@ -139,6 +139,9 @@ public class UIWeaponShop : UICanvas, IDataPersistence
             return;
         }
 
+        playerCoin = playerCoin - weaponData.WeaponItems[index].cost;
+        playerCoinTxt.text = playerCoin.ToString();
+
         curWeaponList[weaponType] = BuyState.Bought;
         ChangeWeapon(weaponType);
         DataPersistenceManager.Ins.SendData(this);

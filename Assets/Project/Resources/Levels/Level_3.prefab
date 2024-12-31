@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfActiveBot: 15
-  numberOfTotalBot: 30
+  numberOfTotalBot: 25
   minPoint: {fileID: 3969849802534467459}
   maxPoint: {fileID: 4419811995590389521}
   playerSpawn: {fileID: 8467598400617106983}

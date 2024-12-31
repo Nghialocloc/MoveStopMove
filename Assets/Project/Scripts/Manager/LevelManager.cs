@@ -8,6 +8,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
     public Level[] levels;
     public Level currentLevel;
     public int levelIndex;
+    //public LevelData levelData;
     private SerilizableDictionary<int, LevelState> curLevelList;
 
     [Header("Player")]
@@ -53,6 +54,11 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
     public void Start()
     {
         levels = Resources.LoadAll<Level>("Levels/");
+        //levels = new Level[levelData.levelInfo.Count];
+        //for (int i = 0; i < levelData.levelInfo.Count; i++)
+        //{
+        //    levels[i] = levelData.levelInfo[i].levelPrefab;
+        //}
         OnInit();
     }
 
@@ -146,7 +152,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
         for(int i = 0; i < spawnSpeed; i++)
         {
             Vector3 pos = currentLevel.RandomPoint();
-            Collider[] check = Physics.OverlapSphere(pos, 5f, collideLayer);
+            Collider[] check = Physics.OverlapSphere(pos, 2f, collideLayer);
             if (check.Length <= 0)
             {
                 curBotNumber++;
