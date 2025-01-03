@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 1421620496559546969}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8000001, z: 0.8000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 1739202056117456257}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,9 +474,11 @@ MonoBehaviour:
   moveSpeed: 5
   rotationSpeed: 600
   attackDelay: 0.5
-  attackRange: 5
   charSize: 1
   currentAnim: 
+  MAX_SIZE: 4
+  MIN_SIZE: 1
+  BASE_ATTACK_RANGE: 5
   rb: {fileID: 4367647461621978912}
   collider: {fileID: 1488482338814811183}
   groundLayer:
@@ -487,7 +489,6 @@ MonoBehaviour:
   indicatorPoint: {fileID: 3717509530571578392}
   maskTarget: {fileID: 1421620496559546969}
   targets: []
-  canvasOverlay: {fileID: 0}
   playerJoy: {fileID: 925940811631514832}
   reviveVFX: {fileID: 4126003972549078029}
   isRevive: 0

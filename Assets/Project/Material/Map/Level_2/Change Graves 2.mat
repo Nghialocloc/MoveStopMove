@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Church_From
+  m_Name: Change Graves 2
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,7 +28,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3ea3e41c4f1098a45bb9b9811499f8ed, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0a07d662e7ec175489b86952377193a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -48,15 +48,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 56d09de34fa6de94abf236c6557250e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: df727a8813ddf344e88e21870bd37d8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: c323ca12ab1d83d43ad7aaa43ddb7c03, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6c93c1d253aaeef469df8d025c8305a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 8e1d53fd20461bf4a82849c00f585584, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7cf65f8be36ebce47a04a8aabf3e835d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:

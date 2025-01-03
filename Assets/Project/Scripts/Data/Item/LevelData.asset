@@ -17,8 +17,8 @@ MonoBehaviour:
     levelName: Table
     levelPrefab: {fileID: 8997177961384839995, guid: 71b0efe76274bb44d807d60039d7b0e8, type: 3}
   - levelNumber: 1
-    levelName: Table_2
+    levelName: Graveyard
     levelPrefab: {fileID: 7222165062520874153, guid: f333418b2468abd48ac4830488151658, type: 3}
   - levelNumber: 2
-    levelName: Table_3
+    levelName: Egypt
     levelPrefab: {fileID: 4555796700295028321, guid: 2fa9deb0f64c62a40b71aab385ac7e5d, type: 3}

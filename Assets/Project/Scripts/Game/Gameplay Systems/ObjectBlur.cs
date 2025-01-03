@@ -7,6 +7,7 @@ public class ObjectBlur : MonoBehaviour
     [SerializeField] private MeshRenderer render;
     [SerializeField] private float fadeAmount;
     [SerializeField] private float fadeSpeed;
+    [SerializeField] private float disBlur = 10;
     public bool DoFade = false;
 
     private float originValue;
@@ -22,7 +23,7 @@ public class ObjectBlur : MonoBehaviour
     {
         if(LevelManager.Ins.currentPlayer != null && GameManager.Ins.IsState(GameState.Gameplay))
         {
-            if (Vector3.Distance(transform.position, LevelManager.Ins.currentPlayer.TF.position) <= LevelManager.Ins.currentPlayer.BASE_ATTACK_RANGE * 2)
+            if (Vector3.Distance(transform.position, LevelManager.Ins.currentPlayer.TF.position) <= disBlur)
             {
                 FadeNow();
             }

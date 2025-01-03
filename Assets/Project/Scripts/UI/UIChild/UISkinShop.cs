@@ -318,6 +318,7 @@ public class UISkinShop : UICanvas, IDataPersistence
                 curHatList[curEquipHat] = BuyState.Bought;
                 curHatList[(HatType)currentItem.itemID] = BuyState.Equipped;
                 curEquipHat = (HatType)currentItem.itemID;
+                LevelManager.Ins.currentPlayer.DespawnHat();
                 LevelManager.Ins.currentPlayer.ChangeHat(curEquipHat);
                 break;
             case PantType:
@@ -330,6 +331,7 @@ public class UISkinShop : UICanvas, IDataPersistence
                 curAccessoryList[curEquipAcc] = BuyState.Bought;
                 curAccessoryList[(AccessoryType)currentItem.itemID] = BuyState.Equipped;
                 curEquipAcc = (AccessoryType)currentItem.itemID;
+                LevelManager.Ins.currentPlayer.DespawnAccessory();
                 LevelManager.Ins.currentPlayer.ChangeAccessory(curEquipAcc);
                 break;
             case SkinType:

@@ -152,7 +152,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
         for(int i = 0; i < spawnSpeed; i++)
         {
             Vector3 pos = currentLevel.RandomPoint();
-            Collider[] check = Physics.OverlapSphere(pos, 2f, collideLayer);
+            Collider[] check = Physics.OverlapSphere(pos, 3f, collideLayer);
             if (check.Length <= 0)
             {
                 curBotNumber++;

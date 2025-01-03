@@ -135,7 +135,6 @@ public class Character : GameUnit
 
     public void ChangeAccessory(AccessoryType accessoryType)
     {
-        DespawnAccessory();
         if (!charModel.isFullSet && accessoryType != AccessoryType.ACC_None)
         {
             currentAcc = SimplePool.Spawn<Accessory>((PoolType)accessoryType, charModel.leftHand);
@@ -144,7 +143,6 @@ public class Character : GameUnit
 
     public void ChangeHat(HatType hatType)
     {
-        DespawnHat();
         if (!charModel.isFullSet && hatType != HatType.HAT_None)
         {
             currentHat = SimplePool.Spawn<Hat>((PoolType)hatType, charModel.head);
