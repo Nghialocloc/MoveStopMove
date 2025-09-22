@@ -3582,11 +3582,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b22bdb4a8e18b040b94cf5a140d3e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  render: {fileID: 0}
+  render: {fileID: 7363369438389075666}
   fadeAmount: 0.5
   fadeSpeed: 10
   disBlur: 10
   DoFade: 0
+--- !u!23 &7363369438389075666 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1587248721786135110, guid: 29899342630061e408fdbd8e20ea25cd, type: 3}
+  m_PrefabInstance: {fileID: 8081985716057578644}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8536414476787512957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 459249022021888745, guid: 29899342630061e408fdbd8e20ea25cd, type: 3}

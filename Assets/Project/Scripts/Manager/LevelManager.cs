@@ -231,7 +231,7 @@ public class LevelManager : Singleton<LevelManager>, IDataPersistence
 
     private void Win()
     {
-        if( (levelIndex) <= levels.Length)
+        if( (levelIndex) < levels.Length)
         {
             curLevelList[levelIndex] = LevelState.Load;
             levelIndex++;

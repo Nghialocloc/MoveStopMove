@@ -112,7 +112,8 @@ public class UIWeaponShop : UICanvas, IDataPersistence
         nameTxt.SetText(item.name);
         decriTxt.SetText(item.description);
         priceTxt.SetText(item.cost.ToString());
-        
+        DataPersistenceManager.Ins.SendData(this);
+
     }
 
     public void SetState(BuyState state)
